@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '923288330026';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || 'your number';  // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '923288330026';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -20,12 +20,12 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
+global.pairingNumber = process.env.BOT_NUMBER || '923276326230';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['923288330026', '923288330026']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -73,15 +73,15 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'GLOBAL-MD'
-global.author = 'GlobalTechInfo'
-global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
-global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.packname = '𝒁𝒊𝙙𝒊𝒊-𝑫𝙚𝙘𝙚𝙣𝙩-𝕭𝐎𝐘'
+global.author = '🦄'
+global.menuvid = 'https://qu.ax/pWvac.mp4'
+global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/zidii_decent_boy?igsh=MXVobjVlMXBrYzcxbg=='
+global.dygp = 'https://www.instagram.com/zidii_decent_boy?igsh=MXVobjVlMXBrYzcxbg=='
 global.fgsc = 'https://github.com/GlobalTechInfo/ULTRA-MD'
-global.fgyt = 'https://youtube.com/@GlobalTechInfo'
-global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
-global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
+global.fgyt = 'https://www.instagram.com/zidii_decent_boy?igsh=MXVobjVlMXBrYzcxbg=='
+global.fgpyp = 'https://www.instagram.com/zidii_decent_boy?igsh=MXVobjVlMXBrYzcxbg=='
+global.fglog = 'https://qu.ax/NoZhC.jpg'
 global.thumb = fs.readFileSync('./assets/qasim.jpg')
 
 global.wait = '⏳'
